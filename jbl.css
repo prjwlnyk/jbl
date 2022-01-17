@@ -1,0 +1,128 @@
+* { 
+    box-sizing: border-box;
+}
+body, html{
+    margin: 0;
+    width: 100%;
+    font-family: 'Merriweather Sans', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding: 15px;
+}
+body, a{
+    text-decoration: none;
+    color: black;
+}
+.navbar {
+    display: flex;
+    background-color: black;
+    width: 100.75%;
+    margin-left:-10px;
+    margin-top:0px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-top: 5px;
+}
+.navbar img {
+    width: 5%;
+    height: auto;
+    margin-left: 10px;
+}
+.bg img {
+    width:100%;
+    max-height:590px;
+    overflow: hidden;
+}
+#tagline {
+    color: white;
+    margin-top: -150px;
+    font-size: 36px;
+    text-align: center;
+    z-index: 3;
+    opacity: 50%;
+}
+.services {
+    width: 70%;
+    padding: 5px;
+    margin-top: 200px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+.services h2 {
+    margin-left:-15px;
+}
+.firstrow {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.secondrow {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.products {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.products h2 {
+    text-align: center;
+}
+.prodcontainer {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.prodcontainer p{
+    text-align: center;
+}
+.discover {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+}
+.discover h2 {
+    text-align:center;
+}
+.discover img{
+    width: 210px;
+    height: auto;
+}
+.discontainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 70px;
+}
+.discontainer1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.foot {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.footer {
+    margin-top: 100px;
+    background-color: black;
+}
+.aboutus {
+    color: white;
+}
